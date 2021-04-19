@@ -637,3 +637,9 @@ on property:sys.boot_completed=1
 
     # Enable suspend to RAM
     write /sys/power/mem_sleep "deep"
+
+    # Enable qcrild and data services on boot so process starts in main
+    enable vendor.qcrild
+    enable vendor.qcrild2
+    enable vendor.dataqti
+    enable vendor.dataadpl
