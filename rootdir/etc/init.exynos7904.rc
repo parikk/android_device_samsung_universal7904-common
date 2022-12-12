@@ -618,6 +618,10 @@ service tzts_service /vendor/bin/tzts_daemon
 on property:ro.boot.product.model=SM-M205FN
     setprop ro.boot.product.hardware.sku NFC
 
+# Smart charging
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
+
 # Start NFC on supported variants
 service nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service.samsung
     override
