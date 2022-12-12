@@ -207,10 +207,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     secril_config_svc
 
-# SamsungDoze
-PRODUCT_PACKAGES += \
-    SamsungDoze
-
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
