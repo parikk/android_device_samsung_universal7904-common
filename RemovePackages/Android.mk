@@ -4,7 +4,15 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
-LOCAL_OVERRIDES_PACKAGES += Chrome Chrome-Stub Drive Maps PrebuiltGmail Videos YouTube YouTubeMusicPrebuilt
+LOCAL_OVERRIDES_PACKAGES := Chrome Chrome-Stub
+LOCAL_OVERRIDES_PACKAGES += Drive Maps
+LOCAL_OVERRIDES_PACKAGES += PrebuiltGmail Videos
+LOCAL_OVERRIDES_PACKAGES += YouTube YouTubeMusicPrebuilt
+LOCAL_OVERRIDES_PACKAGES += AmbientSensePrebuilt AppDirectedSMSService
+LOCAL_OVERRIDES_PACKAGES += CalendarGooglePrebuilt GoogleTTS
+LOCAL_OVERRIDES_PACKAGES += FilesPrebuilt Photos
+LOCAL_OVERRIDES_PACKAGES += talkback PixelWallpapers2022
+LOCAL_OVERRIDES_PACKAGES += RecorderPrebuilt PlayAutoInstallConfig
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
