@@ -42,7 +42,8 @@ TARGET_SCREEN_WIDTH := 1080
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5-service.universal7904 \
-    camera.exynos7904
+    camera.exynos7904 \
+    GCamGOPrebuilt-V3
 
 # Charger
 PRODUCT_PACKAGES += \
