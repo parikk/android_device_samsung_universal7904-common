@@ -66,5 +66,10 @@ ro.vendor.vibrator_hal.duration.click=40
 ro.vendor.vibrator_hal.duration.tick=50
 ro.vendor.vibrator_hal.duration.texture_tick=30
 
+## Vibrator HAL
+ro.vendor.vibrator_hal.click_duration=50
+ro.vendor.vibrator_hal.tick_duration=45
+ro.vendor.vibrator_hal.texture_tick_duration=30
+
 ## Wifi direct
 wifi.direct.interface=p2p0
