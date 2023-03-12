@@ -61,5 +61,10 @@ debug.sf.latch_unsignaled=1
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 debug.sf.disable_client_composition_cache=1
 
+## Vibrator HAL
+ro.vendor.vibrator_hal.duration.click=40
+ro.vendor.vibrator_hal.duration.tick=50
+ro.vendor.vibrator_hal.duration.texture_tick=30
+
 ## Wifi direct
 wifi.direct.interface=p2p0
