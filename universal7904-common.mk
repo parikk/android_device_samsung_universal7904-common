@@ -260,6 +260,10 @@ PRODUCT_PACKAGES += \
     libshim_audioparams \
     libshim_sensorndkbridge
 
+# SimpleDeviceConfig
+PRODUCT_PACKAGES += \
+    SimpleDeviceConfig
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
