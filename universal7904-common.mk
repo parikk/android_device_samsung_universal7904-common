@@ -228,6 +228,10 @@ PRODUCT_PACKAGES += \
     libshim_audioparams \
     libshim_sensorndkbridge
 
+# SimpleDeviceConfig
+PRODUCT_PACKAGES += \
+    SimpleDeviceConfig
+
 # Skip Mount
 PRODUCT_PACKAGES += \
     gsi_skip_mount.cfg
