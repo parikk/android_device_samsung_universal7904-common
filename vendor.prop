@@ -30,6 +30,9 @@ debug.fdsan=warn_once
 # Disable invocation of oem_lock
 ro.frp.pst=/dev/block/persistent
 
+# FS-verity
+ro.apk_verity.mode=2
+
 ## Fastbootd
 ro.fastbootd.available=true
 
