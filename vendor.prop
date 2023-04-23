@@ -30,6 +30,9 @@ persist.sys.sf.color_mode=0
 persist.sys.sf.color_saturation=1.20
 ro.hwui.render_ahead=10
 
+# Feature flags
+persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 ## Fdsan
 # Set fdsan to the warn_once severity level
 debug.fdsan=warn_once
