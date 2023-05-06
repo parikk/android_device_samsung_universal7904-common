@@ -42,6 +42,9 @@ ro.apk_verity.mode=2
 ## Fastbootd
 ro.fastbootd.available=true
 
+# Graphics
+debug.sf.enable_egl_image_tracker=1
+
 ## OMX
 # Set csc support in OMX
 # If not set or set to 0, OMX will only use BT.601 colorspace.
