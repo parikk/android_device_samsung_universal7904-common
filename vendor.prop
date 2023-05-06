@@ -42,6 +42,7 @@ ro.frp.pst=/dev/block/persistent
 ro.apk_verity.mode=2
 
 ## Graphics
+debug.sf.enable_egl_image_tracker=1
 ro.hardware.egl=mali
 
 ## Fingerprint
