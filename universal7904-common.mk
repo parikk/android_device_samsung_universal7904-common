@@ -60,6 +60,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     disable_configstore
 
+# Disable Postrender Cleanup
+TARGET_DISABLE_POSTRENDER_CLEANUP := true
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
