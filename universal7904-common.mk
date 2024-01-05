@@ -69,14 +69,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.fastcharge@1.0-service.samsung
 
-# Fingerprint
+# Figerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-service.samsung
-
-# FM Radio
-PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
